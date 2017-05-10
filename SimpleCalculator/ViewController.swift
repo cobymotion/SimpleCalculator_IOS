@@ -54,7 +54,8 @@ class ViewController: UIViewController {
       
         }
         
-        resultLabel.text = String(result)
+        //resultLabel.text = String(result)
+        resultLabel.text = String(format: "%.2f", result)
         
     }
 
